@@ -1,0 +1,116 @@
+.contact {
+    display: flex;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.contact-left {
+    display: flex;
+    flex-direction: column;
+    width: calc(100%/2);
+    padding-right: 15px;
+}
+
+.contact-right {
+    width: calc(100%/2);
+    padding-left: 15px;
+}
+
+.contact-right iframe {
+    width: 100%;
+    border: none;
+    height: 100%;
+    min-height: 500px;
+}
+
+.contact-info li {
+    list-style: none;
+}
+
+.contact-info li>h6> {
+    color: #ca1515;
+}
+
+.contact-info li .fa {
+    color: #ca1515;
+    padding-right: 10px;
+}
+
+.contact-info li p {
+    margin-bottom: 0;
+    font-size: 15px;
+    color: #444444;
+    margin: 0 0 15px 0;
+}
+
+.contact h5 {
+    color: #111111;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.send-message {
+    padding-top: 30px;
+}
+
+.send-message form {
+    display: flex;
+    flex-direction: column;
+}
+
+.send-message input {
+    height: 50px;
+    padding-left: 20px;
+    font-size: 14px;
+    color: #444444;
+    border: 1px solid #e1e1e1;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.send-message textarea {
+    height: 130px;
+    width: 100%;
+    padding-left: 20px;
+    padding-top: 12px;
+    font-size: 14px;
+    color: #444444;
+    border: 1px solid #e1e1e1;
+    border-radius: 10px;
+    margin-bottom: 14px;
+    resize: none;
+}
+
+.btn-send {
+    font-size: 14px;
+    width: fit-content;
+    color: #ffffff;
+    background: #ca1515;
+    font-weight: 600;
+    border: none;
+    text-transform: uppercase;
+    display: inline-block;
+    padding: 12px 30px;
+    border-radius: 50px;
+}
+
+@media (max-width: 991px) {
+    .contact {
+        flex-wrap: wrap;
+    }
+
+    .contact-left {
+        width: 100%;
+    }
+
+    .contact-right {
+        width: 100%;
+    }
+
+    .contact-right iframe {
+        padding-top: 30px;
+    }
+
+}
